@@ -10,7 +10,13 @@ A simple fitness tracker that allows you to track and visualize your daily worko
 - View Weights
 - View Progress (graphs)
 
-## Local files
+## Usage
+
+```bash
+python3 tracker.py
+```
+
+### Local files
 
 All data is stored in local files. The following files are used:
 
