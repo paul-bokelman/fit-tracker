@@ -1,4 +1,3 @@
-import json
 import inquirer
 from termcolor import colored
 from lib.log import log_weight, log_workout
@@ -36,6 +35,4 @@ while True:
             case 'exit':
                 exit(0)
     else:
-        print('No option selected')
-        running = False
         exit(1)
